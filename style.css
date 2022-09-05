@@ -1,0 +1,186 @@
+/* General Stylings */
+
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    font-family:'Rubik'
+}
+
+:root{
+    --maincolor: #83eeff;
+    --secondarycolor: #393e41;
+}
+
+#hero{
+    position:absolute;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:100%;
+}
+
+.bottombar{
+    width:90%;
+    height:13%;
+    background-color:var(--secondarycolor);
+    border-radius: 20px;
+    display:flex;
+    align-items:center;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+.items {
+width:100%;
+height:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.item{
+    width:20%;
+    height:60%;
+    margin-right:5%;
+    margin-left:5%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+/* navbar specific stylings */
+
+.lbl{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:none;
+}
+
+input[type=radio]{
+    display: none;
+}
+
+.button{
+    position:relative;
+    width:0%;
+    background:var(--maincolor);
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    overflow:none;
+    transition: .2s;
+    border-radius: 20px;
+}
+
+.fa-2x{
+    font-size: 220%;
+    color:var(--maincolor);
+    transition:1s;
+    z-index:1;
+}
+
+.btntxt{
+    position:relative;
+    right:10%;
+    opacity:0;
+    transition: .5s;
+    color:var(--secondarycolor);
+    font-weight:700;
+}
+
+input:checked ~ .button{
+    width:100%;
+    animation-delay: .2s;
+}
+
+input:checked ~ .button span{
+    position:relative;
+    right:0%;
+    opacity:1;
+    margin-left:10%;
+    animation-delay:.2s;
+}
+
+input:checked ~ .button i {
+    color: var(--secondarycolor);
+}
+
+#withborder {
+    border: 5px solid var(--maincolor);
+}
+
+.item2{
+    width:20%;
+    height:90%;
+    margin-right: 5%;
+    margin-left:5%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-flow:column wrap;
+}
+
+.lbl2 {
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.button2{
+    position:relative;
+    bottom:0%;
+    width:80%;
+    background:var(--secondarycolor);
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:none;
+    transition:0.2s;
+    border-radius:50px;
+    flex-flow:column wrap;
+}
+
+.icon2{
+    transition:0.5s;
+    font-size:200%;
+    color: var(--maincolor);
+    transition:1s;
+    z-index:1;
+    margin-top:13%;
+    z-index:1;
+}
+
+.btntxt2{
+    position:relative;
+    top:20%;
+    transition: all .2s;
+    color:var(--maincolor);
+    font-weight: 1000;
+    opacity: 0;
+}
+
+input:checked ~ .button2{
+    bottom:60%;
+    border: 5px solid var(--maincolor);
+}
+
+input:checked ~ .button2 span{
+    position:relative;
+    top:60%;
+    opacity:1;
+    animation-delay:.2s;
+}
+
+input:checked ~ .button2 i {
+    margin-top:10%;
+}
