@@ -1,3 +1,3 @@
-![youtube image](https://raw.githubusercontent.com/jtocool7/BottomNavBar/main/Nav%20Bar.png)
+![youtube image](https://raw.githubusercontent.com/jtocool7/Video-Game-Loading-Animation/main/gaming%20loading.png)
 ### I Created 2 different Bottom Nav Bars!
-[Watch The Full Video Here](https://youtu.be/Ci4FFt4axqY)
+[Watch The Full Video Here](https://www.youtube.com/shorts/R0JxGjTxTaQ)
